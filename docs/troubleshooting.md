@@ -41,7 +41,7 @@ These arguments allow you to see in real-time how Flex is processing the config 
 
 ### Testing a config
 
-You can manually test a config file to ensure the output meets your expectations by running a command like this, replacing `<FILE_NAME>` with the name of your config file: 
+You can manually test a config file to ensure the output meets your expectations.  One caveat here is that running the commands in shells opened by your user identity may have significantly different environment variable values and other overall differences.  This is noticeable when a config run by the below is successful for you, but still fails to produce results when run by the infra-agent.  Testing a config can be accomplished by running a command like this, replacing `<FILE_NAME>` with the name of your config file: 
 
 ```shell
 # Linux
